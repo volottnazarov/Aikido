@@ -145,9 +145,6 @@ img {
 @media(min-width: 768px) and (max-width: 1200px){
     .container {
         max-width: 735px;
-    }
-    .container {
-        max-width: 735px;
         margin: 0 auto;
     }
     .rock-salt-regular {
@@ -214,4 +211,104 @@ img {
         height: 160px;
     }
 
+}
+@media (max-width: 767px){
+    .container {
+        max-width: 375px;
+    }
+    .reggae-one-regular {
+        font-size: 45px;
+    }
+    .logo {
+        display: none;
+    }
+    .title {
+        height: 200px;
+        margin-left: -8px;
+    }
+    .logoTitle {
+        width: 375px;
+    }
+    .founder__info {
+        display: flex;
+        flex-direction: column;
+    }
+    .founder__info-text {
+        width: 375px;
+    }
+    .text {
+        font-size: 17px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .aikido {
+        height: 750px;
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .aikido-notes {
+        width: 375px;
+        height: 2050px;
+    }
+    .minoru__info {
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .aikikay {
+        height: 190px;
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-left: 10px;
+    }
+    .terms {
+        width: 375px;
+        margin-top: 0;
+    }
+    .terms__text {
+        height: 1000px;
+    }
+    .aikido-notes {
+        height: 1550px;
+    }
+    .notes__back-image {
+        height: 1800px;
+        background-image: none;
+        background-color: rgba(173, 131, 32, 0.237);
+        border: none;
+        margin-left: -8px;
+        margin-top: -17px;
+    }
+    .text-text {
+        font-size: 17px;
+    }
+    .terms {
+        height: 920px;
+        margin-top: -5px;
+    }
+    .terms__text {
+        background-image: none;
+        background-color: black;
+        text-shadow: none;
+    }
+    .name-move2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mobile-color {
+        color: bisque;
+    }
+    .ps {
+        height: 280px;
+        margin-top: 267px;
+        border: 2px solid black;
+    }
+    .postscript {
+        margin-top: -10px;
+    }
+    .creator {
+        height: 73px;
+    }
 }
