@@ -1,0 +1,217 @@
+﻿
+.rock-salt-regular {
+        font-family: "Rock Salt", cursive;
+        font-weight: 800;
+        font-size: 40px;
+        color: chocolate;
+        font-style: normal;
+        line-height: 0px;
+}
+.reggae-one-regular {
+    font-family: "Reggae One", system-ui;
+    font-weight: 800;
+    font-size: 100px;
+    font-style: normal;
+    color: red;
+    line-height: 60px;
+}
+
+
+body {
+    scroll-behavior: smooth;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title {
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}
+.logo {
+    padding: 20px;
+}
+.logoTitle {
+    width: 1000px;
+    text-align: center;
+}
+.founder__info {
+    display: flex;
+    flex-direction: row;
+}
+.founder__info-text {
+    width: 622px;
+    background-color: rgb(36, 34, 34);
+}
+.text {
+    font-family: "Rock Salt", cursive;
+    font-size: 19px;
+    text-align: center;
+    color: blanchedalmond;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.shadow {
+    text-shadow: rgb(245, 241, 241) 2px 2px 3px;
+}
+.shadow-no {
+    text-shadow: none;
+}
+.color {
+    color: red;
+}
+.color-2 {
+    color:rgb(52, 7, 7)
+}
+.color-3 {
+    color: bisque;
+}
+.gold {
+    color: gold;
+}
+.size-1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.size-2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.size-3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+.aikido {
+    height: 360px;
+    background-color: bisque;
+}
+.aikido-notes {
+    width: 1200px;
+}
+.notes__back-image {
+    height: 1000px;
+    background-image: url('./image/BackAikido.webp');
+    background-size: cover;
+    border: 2px solid black;
+}
+.minoru__info {
+    display: flex;
+    flex-direction: row;
+}
+.minoru__info-text {
+    background-color: rgb(36, 34, 34);
+}
+.aikikay {
+    height: 150px;
+    margin-top: -19px;
+    margin-bottom: -19px;
+    background-color: bisque;
+}
+.name-move {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.terms {
+    width: 1200px;
+    margin-top: -25px;
+}
+.terms__text {
+    height: 700px;
+    background-image: url('./image/Termins.png');
+    background-size: cover;
+}
+.ps {
+    height: 120px;
+    background-color: bisque;
+}
+.creator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: -20px;
+}
+
+@media(min-width: 768px) and (max-width: 1200px){
+    .container {
+        max-width: 735px;
+    }
+    .container {
+        max-width: 735px;
+        margin: 0 auto;
+    }
+    .rock-salt-regular {
+        font-size: 35px;
+    }
+    .reggae-one-regular {
+        font-size: 70px;
+    }
+    .title {
+        height: 190px;
+    }
+    .founder {
+        background-color: bisque;
+    }
+    .founder__info {
+        flex-direction: column;
+        width: 734px;
+    }
+    .founder__info-text {
+        width: 734px;
+    }
+    .aikido {
+        height: 500px;
+    }
+    .minoru__img {
+        width: 390px;
+    }
+    .text{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .text-text {
+        font-family: "Rock Salt", cursive;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .aikikay {
+        height: 120px;
+        margin-top: -19px;
+        margin-bottom: 3px;
+        background-color: bisque;
+    }
+    .terms {
+        width: 735px;
+    }
+    .aikido-notes {
+        width: 735px;
+        height: 1050px;
+    }
+    .notes__back-image {
+        height: 900px;
+    }
+    .name-move {
+        margin-top: -30px;
+    }
+    .digit_back {
+        background-color: black;
+        color: bisque;
+        height: 150px;
+        margin-top: 44px;
+    }
+    .ps {
+        height: 160px;
+    }
+
+}
