@@ -2,7 +2,7 @@
 var height = document.body.scrollHeight;
 if (height<document.body.clientHeight) height = document.body.clientHeight;
 var width = document.body.scrollWidth;
-var col = Math.round(height/25);    //количество снежинок
+var col = Math.round(height/45);    //количество снежинок
 
 var amp = new Array();
 var x_pos = new Array();
